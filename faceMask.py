@@ -75,7 +75,7 @@ def FaceTracker():
     # cv.waitKey(0)
     cv.destroyAllWindows()
 
-FaceTracker()
+# FaceTracker()
 
 
 # # window.destroy()

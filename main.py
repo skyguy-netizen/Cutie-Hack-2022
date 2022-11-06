@@ -1,6 +1,7 @@
 from tkinter import *
 import os
 from faceMask import FaceTracker
+from face_recognition import Face_Recognition
 
 window = Tk()
 # button = tk.Button(
@@ -10,8 +11,8 @@ window = Tk()
 #     bg="blue",
 #     fg="yellow",
 # )
-b1 = Button(window,text = "Face Tracker",command = FaceTracker,activeforeground = "red",activebackground = "pink",pady=20) 
-b2 = Button(window,text = "Some fun cartoon pics",command = FaceTracker,activeforeground = "red",activebackground = "pink",pady=20) 
+b1 = Button(window,text = "Mask Detection",command = FaceTracker,activeforeground = "red",activebackground = "pink",pady=20) 
+b2 = Button(window,text = "Celebrity Lookalike",command = Face_Recognition,activeforeground = "red",activebackground = "pink",pady=20) 
 b1.pack()   
 b2.pack()
 
